@@ -1,0 +1,15 @@
+/* font-family: 'DM Serif Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+@font-face {
+  /* 이건 걍 사용자가 붙이는 이름임 */
+  font-family: 'Pretendard Variable';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/PretendardVariable.woff2) format('woff2-variations');
+}
+
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
