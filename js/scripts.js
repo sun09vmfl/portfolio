@@ -4,7 +4,7 @@ const sec1_Slider = document.querySelector('#sec1 .slider_wrap');
 new fullpage('#fullpage', {
   //options here
   autoScrolling: true,
-  autoplay: true,
+  autoPlay: true,
   scrollHorizontally: true,
   navigation: true,
   anchors: ['Num0', 'Num1', 'Num2', 'Num3', 'Num4', 'Num5'],
@@ -40,6 +40,7 @@ function sec1_reset() {
 	`;
 }
 
+// 네비게이션 토글바
 const Body = document.querySelector('body');
 const Nav_Btn = document.querySelector('#nav-icon');
 
@@ -56,4 +57,14 @@ addEventListener('mousemove', e => {
   let y = e.clientY;
   topBgLeft.style.transform = `translate(${x / 40}px, ${-50 / y}px)`;
   // topBgRight.style.transform = `translate(${x / -1}px, ${y / -5}px)`;
+});
+
+// contact 회전
+let card = document.querySelector('.card');
+card.addEventListener('mouseup', function () {
+  card.classList.toggle('is-flipped');
+});
+
+card.addEventListener('touchstart, touchend', function () {
+  card.classList.toggle('is-flipped');
 });

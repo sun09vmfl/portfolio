@@ -27,14 +27,14 @@ header {
 h1.title {
   font-size: 3em;
   color: #121212;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
   opacity: 0;
   position: absolute;
   top: 150px;
   left: 100px;
   transform: translateX(-100%);
   transition: all 0.6s ease-in;
-  transition-delay: 1s;
+  transition-delay: 0.6s;
 }
 
 #sec1 h1.title {
@@ -61,14 +61,103 @@ h1.title {
   overflow: hidden;
 }
 
-#sec0 .mainlogo img {
+#sec0 .mainlogo .pf-main {
   position: absolute;
-  width: 95%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 99;
+  width: 656px;
+  height: 503px;
+  left: 607px;
+  top: 250px;
 }
+#sec0 .mainlogo .pf-top {
+  position: absolute;
+  width: 470px;
+  height: 56px;
+  left: 104px;
+  top: 60px;
+}
+#sec0 .mainlogo .pf-email {
+  position: absolute;
+  width: 488px;
+  height: 56px;
+  left: 1300px;
+  top: 896px;
+}
+#sec0 .mainlogo .pf-blackstarbig {
+  position: absolute;
+  width: 323px;
+  height: 406px;
+  left: 1445px;
+  top: 135px;
+}
+#sec0 .mainlogo .pf-blackstarsmall {
+  position: absolute;
+  width: 116px;
+  height: 146px;
+  left: 1618px;
+  top: 366px;
+}
+#sec0 .mainlogo .pf-bigstar {
+  position: absolute;
+  width: 470px;
+  height: 470px;
+  left: 14px;
+  top: 193px;
+}
+#sec0 .mainlogo .pf-smallstar {
+  position: absolute;
+  width: 126px;
+  height: 157px;
+  left: 276px;
+  top: 520px;
+}
+#sec0 .mainlogo .pf-blackbottom {
+  position: absolute;
+  width: 157px;
+  height: 197px;
+  left: 283px;
+  top: 755px;
+}
+#sec0 .mainlogo .pf-bigstarmiddle {
+  position: absolute;
+  width: 210px;
+  height: 213px;
+  left: 1025px;
+  top: 98px;
+  animation: ani2 0.4s ease-in-out infinite alternate;
+  transition: 0.4s;
+}
+#sec0 .mainlogo .pf-bigstarbottom {
+  position: absolute;
+  width: 210px;
+  height: 213px;
+  left: 1235px;
+  top: 637px;
+  transition: 1s;
+  -webkit-animation: ani1 0.8s ease-in-out infinite alternate;
+  -moz-animation: ani1 0.8s ease-in-out infinite alternate;
+  animation: ani1 0.8s ease-in-out infinite alternate;
+}
+/* 
+@keyframes ani1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes ani2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+} */
 
 #sec1 .inner {
   justify-content: space-around;
@@ -144,11 +233,32 @@ h1.title {
   background-clip: text;
   text-fill-color: transparent;
 
-  z-index: 9;
+  z-index: -1;
+}
+#sec1 .sl_02 {
+  position: relative;
+}
+
+#sec1 .sl_02 .num {
+  position: absolute;
+  width: 349px;
+  height: 358px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 250px;
+  line-height: 358px;
+  right: 8%;
+
+  background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .sl_01 .slide_inner .pj1-1 .project h1 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
   font-size: 2.5em;
   color: #121212;
   z-index: 9999;
@@ -218,7 +328,7 @@ h1.title {
 }
 
 .sl_02 .slide_inner .pj2-1 .project h1 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
   font-size: 1.5em;
   color: #121212;
   margin-top: 20px;
@@ -294,6 +404,22 @@ h1.title {
 
 /* 슬라이더 끝 */
 
+/* about 시작 */
+
+#sec2 .inner .gradient-circle1 {
+  /* Ellipse 3 */
+
+  position: absolute;
+  width: 1069px;
+  height: 1077px;
+  left: -504px;
+  top: -461px;
+
+  background: linear-gradient(180deg, rgba(112, 203, 255, 0.43) 27.6%, rgba(238, 48, 255, 0.33) 52.6%, rgba(245, 170, 238, 0.49) 84.37%);
+  filter: blur(150px);
+  z-index: -1;
+}
+
 #sec2 .top-bg-right .video_wrapper {
   width: 40%;
   height: 40%;
@@ -327,35 +453,60 @@ h1.title {
 }
 #sec2 .inner .txt-box {
   padding-left: 100px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 #sec2 .inner .txt-box h1 {
-  font-family: 'Marcellus', serif;
+  font-family: 'AmericanaStd', 'Marcellus', serif;
   font-size: 4em;
   padding: 100px 0 30px 0;
 }
 
 #sec2 .inner .txt-box p {
   font-family: 'pretendard';
+  line-height: 1.8;
 }
 
 #sec2 .inner .txt-box2 {
-  margin-top: 7%;
- 
+  margin-top: 10%;
   display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  line-height: 1.5;
 }
 #sec2 .inner .txt-box2 .career {
   padding-left: 50px;
 }
+
 #sec2 .inner .txt-box2 ul li {
   font-family: 'pretendard', '맑은 고딕', sans-serif;
   padding-top: 1.5%;
   list-style: circle;
 }
 
+#sec3 h1 img {
+  vertical-align: bottom;
+}
+
+/* skill 시작 */
+
+#sec3 .inner #main_intro .gradient-circle2 {
+  position: absolute;
+  width: 1069px;
+  height: 1077px;
+  left: 1325px;
+  top: 310px;
+
+  background: linear-gradient(180deg, rgba(112, 203, 255, 0.43) 27.6%, rgba(238, 48, 255, 0.33) 52.6%, rgba(245, 170, 238, 0.49) 84.37%);
+  filter: blur(150px);
+
+  z-index: -1;
+}
+#sec3 .inner .main_intro_inner ul {
+  padding-left: 40px;
+}
 #sec3 .skill-box {
   display: flex;
   justify-content: center;
@@ -365,45 +516,187 @@ h1.title {
 #sec3 .skill-box .skill-box1 {
   margin: 10%;
 }
+
 #sec3 #main_intro {
-  width:70vw;
-  margin:100px auto;
+  width: 70vw;
+  margin: 100px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 22.5vw;
+  grid-auto-rows: 18.5vw;
 }
 #sec3 #main_intro .main_intro_inner {
-  padding: 2.083vw;
+  padding: 1.083vw;
 }
-#sec3 #main_intro .border_right {
-  /* border-right: 1px solid #121212; */
-}
-#sec3 #main_intro .border_bottom {
-  /* border-bottom:  1px solid #121212; */
-}
+
 #sec3 #main_intro .main_intro_inner h1 {
   font-size: 2rem;
-  font-weight: 700;
-  margin:1.563vw 0;
+  font-family: 'AmericanaStd';
+  margin: 1.563vw 0;
 }
 
 #sec3 #main_intro .main_intro_inner ul li {
   list-style: circle;
-  padding: 1.2% 0;
+  font-size: 1.05em;
+  font-family: 'pretendard', '맑은 고딕', sans-serif;
+  padding: 1.2% 5%;
 }
 
 #sec3 #main_intro .main_intro_inner {
+  width: 90%;
   margin: 0 auto;
 }
 
+/* skill2 섹션 */
 
-
-
-
-#sec4 {
-  background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+#sec4 .can-box h1 {
+  font-family: 'AmericanaStd', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+#sec4 .can-box ul li {
+  padding: 10px;
+  font-size: 1.25em;
+  font-family: 'modu', 'welcom', 'Pretendard', '맑은 고딕', sans-serif;
+}
+#sec4 .inner .can-box {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  width: 80vw;
+}
+#sec4 .inner .can-box .box1 {
+  border: 1px solid #121212;
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 427px;
+  margin-left: 1.2vw;
+  background: url(../images/skill1.jpg) 50% / cover;
+  align-self: flex-end;
+}
+#sec4 .inner .can-box .box1 ul {
+  width: 85%;
+  margin: auto;
+}
+#sec4 .inner .can-box .box2 ul {
+  width: 85%;
+  margin: auto;
+}
+#sec4 .inner .can-box .box3 ul {
+  width: 85%;
+  margin: auto;
+}
+#sec4 .inner .can-box .box4 ul {
+  width: 85%;
+  margin: auto;
 }
 
+#sec4 .inner .can-box .box2 {
+  border: 1px solid #121212;
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 427px;
+  margin-left: 1.2vw;
+  background: url(../images/skill2.jpg) 50% / cover;
+}
+
+#sec4 .inner .can-box .box3 {
+  border: 1px solid #121212;
+  box-sizing: border-box;
+  font-size: 17px;
+  width: 300px;
+  height: 427px;
+  margin-left: 1.2vw;
+  background: url(../images/skill3.jpg) 50% / cover;
+  align-self: flex-end;
+}
+
+#sec4 .inner .can-box .box4 {
+  border: 1px solid #121212;
+  font-size: 17px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 427px;
+  margin-left: 1.2vw;
+  background: url(../images/skill4.jpg) 50% / cover;
+}
+#sec4 .inner .can-box ul li {
+  list-style: circle;
+  list-style-position: inside;
+}
+
+/* 컨텍트 섹션 */
+
+#sec5 h1 {
+  font-family: 'AmericanaStd', 'Pretendard', '맑은 고딕', sans-serif;
+  font-size: 5em;
+  text-align: center;
+}
+
+#sec5 .card-wrapper {
+  width: 696px;
+  height: 358px;
+  perspective: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sec5 .card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* line-height: 260px; */
+  text-align: center;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-face-back {
+  transform: rotateY(180deg);
+}
+
+.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+#sec5 footer {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #cccbcbe5;
+  position: absolute;
+  bottom: 0;
+}
+#sec5 .ff {
+  font-family: 'AmericanaStd', 'Pretendard', '맑은 고딕', sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#sec5 .ff .blog a {
+  padding-left: 20px;
+}
+
+/* 네비게이션 */
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
   background-color: #121212;

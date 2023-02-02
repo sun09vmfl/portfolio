@@ -8,7 +8,7 @@
     <!-- 웹폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Marcellus&family=Prata&family=Rufina:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Italiana&family=Marcellus&family=Prata&family=Rufina:wght@400;700&display=swap" rel="stylesheet" />
     <!-- 풀페이지 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css" />
     <link rel="stylesheet" href="./common/fonts/font.css" />
@@ -28,11 +28,12 @@
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="#Num0">WORK</a></li>
-          <li><a href="#Num1">ABOUT</a></li>
-          <li><a href="#Num2">SKILL</a></li>
-          <li><a href="#Num2">SKILL2</a></li>
-          <li><a href="#Num3">CONTACT</a></li>
+          <li><a href="#Num0">MAIN</a></li>
+          <li><a href="#Num1">WORK</a></li>
+          <li><a href="#Num2">ABOUT</a></li>
+          <li><a href="#Num3">SKILL</a></li>
+          <li><a href="#Num4">SKILL2</a></li>
+          <li><a href="#Num5">CONTACT</a></li>
         </ul>
       </nav>
     </header>
@@ -42,7 +43,18 @@
           <source src="./images/background2.mp4" type="video/mp4" />
         </video>
         <div class="mainlogo">
-          <img src="./images/bigmain.png" alt="main" />
+          <img src="./images/포트폴리오.png" class="pf-top" />
+          <img src="./images/이메일.png" class="pf-email" />
+          <img src="./images/메인로고.png" alt="main" class="pf-main" />
+
+          <!-- 꾸밈요소 별들 -->
+          <img src="./images/까망별큼_1.png" alt="까망별큼" class="pf-blackstarbig" />
+          <img src="./images/4꼭까망별작음.png" alt="까망별작음" class="pf-blackstarsmall" />
+          <img src="./images/8꼭투명별큼.png" alt="투명별큼" class="pf-bigstar" />
+          <img src="./images/4꼭투명별.png" alt="투명별작음" class="pf-smallstar" />
+          <img src="./images/까망별큼_1.png" alt="까망별작음" class="pf-blackbottom" />
+          <img src="./images/8꼭투명별큼.png" alt="투명별큼" class="pf-bigstarmiddle" />
+          <img src="./images/별.png" alt="투명작음" class="pf-bigstarbottom" />
         </div>
       </section>
 
@@ -79,6 +91,7 @@
             </div>
 
             <div class="slide sl_02">
+              <div class="num">02</div>
               <div class="slide_inner">
                 <div class="pj2">
                   <img src="./images/디자인코코.PNG" alt="프로젝트 리액트" />
@@ -123,12 +136,14 @@
               <video src="./images/background.mp4" class="active" autoplay loop muted></video>
             </div>
           </div>
+          <div class="gradient-circle1"></div>
           <div class="txt-box">
             <h1>La vie est un Voyage!</h1>
             <p>
-              “인생은 항해와 같다.” 그저 하루를 연명하는 것이 아닌, 도전하고 성취하는 삶을 사는 것이 목표입니다.<br />
+              “도전은 삶을 다채롭게 한다.” 그저 하루를 연명하는 것이 아닌, 도전하고 성취하는 삶을 사는 것이 목표입니다.<br />
               ‘믿고 맡길 수 있는 능력 있는 개발자’ 란 목표로 달리겠습니다.
-            </p><br>
+            </p>
+            <br />
             <p>
               최신 유행의 트렌디함과 불변의 클래식을 파악하며, 남녀노소 모두의 니즈를 충족시킬 수 있는 <br />
               연결의 가치를 전하고 사람의 마음을 이어주는 개발자가 되겠습니다.
@@ -139,7 +154,7 @@
                 <ul>
                   <li>Microsoft MOS Master 2013</li>
                   <li>컴퓨터활용능력 1급</li>
-                  <li>워드프로세서 </li>
+                  <li>워드프로세서</li>
                   <li>Delf A2 (프랑스어 중급)</li>
                   <li>운전면허 2종 보통</li>
                 </ul>
@@ -149,7 +164,7 @@
                 <ul>
                   <li>SBS ‘이창섭의 inside’ 방송작가</li>
                   <li>‘TERRA STONE’ 경영지원 주임</li>
-                  <li>프론트엔드 개발 및 실무프로젝트 구현과정 및 양성 지원 </li>
+                  <li>프론트엔드 개발 및 실무프로젝트 구현과정 및 양성 지원</li>
                 </ul>
               </div>
             </div>
@@ -160,111 +175,123 @@
       <section id="sec3" class="section">
         <div class="inner">
           <h1 class="title">Skills</h1>
-          <!-- <div class="skill-box">
-            <div class="skill-box1">
-              <div class="skill1">
-                <h1>01.HTML5 & CSS3</h1>
-                <ul>
-                  <li>웹 사이트 구축 및 디자인</li>
-                  <li>웹표준 & 웹접근성을 준수하는 마크업 </li>
-                  <li>flex & grid & positon를 이용한 레이아웃 구현</li>
-                  <li>Mediaquery를 이용한 반응형 웹 제작</li>
-                  <li>CSS animation을 활용한 모션 구현</li>
-                  <li>SCSS 사용</li>
-                </ul>
-              </div>
-              <div class="skill2">
-                <h1>02. JAVASCRIPT</h1>
-                <ul>
-                  <li>자바스크립트 기본 문법 이해</li>
-                  <li>인터렉티브 웹 사이트 구현</li>
-                  <li>이벤트 메소드 구현</li>
-                  <li>jQuery & Ajax & JSON 사용</li>
-                  <li>OpenAPI 사용 가능</li>
-                </ul>
-              </div>
-            </div>
-            <div class="skill-box2">
-              <div class="skill2">
-                <h1>03. React</h1>
-                <ul>
-                  <li>React 생성, 배포 가능</li>
-                  <li>Components 분리, 관리</li>
-                  <li>React HOOK을 이용한 동적 사이트 구현</li>
-                  <li>Styled-Components 및 SCSS 를 이용한 스타일 구현</li>
-                  <li>React 추가 공부중</li>
-                </ul>
-              </div>
-              <div class="skill2">
-                <h1>04. Git & GitHub</h1>
-                <ul>
-                  <li>CLI기반 Git Bash, VScode 사용</li>
-                  <li>프로젝트 버전관리</li>
-                  <li>GitHub를 이용한 배포</li>
-                  <li>팀원들과의 원활한 소통 및 협업 가능</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-           -->
-
-           <article id="main_intro">
-            <div class="main_intro_inner border_right border_bottom">
-              <h1>01.HTML5 & CSS3</h1>
+          <article id="main_intro">
+            <div class="gradient-circle2"></div>
+            <div class="main_intro_inner skill1">
+              <h1><img src="./images/se04_ICON01.png" alt="sec1" width="40px" /> 01.HTML5 & CSS3</h1>
               <ul>
                 <li>웹 사이트 구축 및 디자인</li>
-                <li>웹표준 & 웹접근성을 준수하는 마크업 </li>
+                <li>웹표준 & 웹접근성을 준수하는 마크업</li>
                 <li>flex & grid & positon를 이용한 레이아웃 구현</li>
                 <li>Mediaquery를 이용한 반응형 웹 제작</li>
                 <li>CSS animation을 활용한 모션 구현</li>
                 <li>SCSS 사용</li>
               </ul>
             </div>
-            <div class="main_intro_inner border_bottom">
-              <h1>02. JAVASCRIPT</h1>
+            <div class="main_intro_inner skill2">
+              <h1><img src="./images/se04_ICON02.png" alt="sec2" width="40px" /> 02. JAVASCRIPT</h1>
               <ul>
-                <li>자바스크립트 기본 문법 이해</li>
+                <li>ES6+ 기본 문법 이해</li>
                 <li>인터렉티브 웹 사이트 구현</li>
                 <li>이벤트 메소드 구현</li>
                 <li>jQuery & Ajax & JSON 사용</li>
                 <li>OpenAPI 사용 가능</li>
+                <li>Map, Filter, Reduce 등 고차 함수</li>
+                <li>통신 Fetch API, Axios 라이브러리</li>
               </ul>
             </div>
-            <div class="main_intro_inner border_right">
-              <h1>03. React</h1>
+            <div class="main_intro_inner skill3">
+              <h1><img src="./images/se04_ICON03.png" alt="sec3" width="40px" /> 03. Library React</h1>
               <ul>
+                <li>컴포넌트 라이프 사이클에 대한 이해</li>
+                <li>Context API, Redux Toolkit 전역 상태관리</li>
                 <li>React 생성, 배포 가능</li>
                 <li>Components 분리, 관리</li>
                 <li>React HOOK을 이용한 동적 사이트 구현</li>
-                <li>Styled-Components 및 SCSS 를 이용한 스타일 구현</li>
+                <li>Styled-Components를 이용한 스타일 구현</li>
                 <li>React 추가 공부중</li>
               </ul>
             </div>
-            <div class="main_intro_inner ">
-              <h1>04. Git & GitHub</h1>
-                <ul>
-                  <li>CLI기반 Git Bash, VScode 사용</li>
-                  <li>프로젝트 버전관리</li>
-                  <li>GitHub를 이용한 배포</li>
-                  <li>팀원들과의 원활한 소통 및 협업 가능</li>
-                </ul>
+            <div class="main_intro_inner skill4">
+              <h1><img src="./images/se04_ICON04.png" alt="sec4" width="40px" /> 04. Git & GitHub</h1>
+              <ul>
+                <li>CLI기반 Git Bash, VScode 사용</li>
+                <li>프로젝트 버전관리</li>
+                <li>GitHub를 이용한 배포</li>
+                <li>팀원들과의 원활한 소통 및 협업 가능</li>
+              </ul>
             </div>
           </article>
-
-
-
-
         </div>
       </section>
 
       <section id="sec4" class="section">
-        <div class="inner"><h1 class="title">and, also I can</h1></div>
+        <div class="inner">
+          <h1 class="title">and, also I can</h1>
+          <div class="can-box">
+            <div class="box1">
+              <h1>PHOTOSHOP & ILLUSTRATOR</h1>
+              <ul>
+                <li>이미지 편집 & 디자인</li>
+                <li>GIF 파일 제작 가능</li>
+                <li>UI/UX 소스 제작</li>
+                <li>아이콘 & 일러스트 제작</li>
+                <li>FIGMA로 프로토타입 제작</li>
+              </ul>
+            </div>
+            <div class="box2">
+              <h1>WRITING</h1>
+              <ul>
+                <li>사용자의 편의와 디자인과 어울리는 텍스트 작성 가능</li>
+                <li>방송 자막 제작 경험으로 간결하고 효율성 있는 텍스트 작성 가능</li>
+                <li>작가 경험으로 인한 감성적인 문구 작성 가능</li>
+                <li>공동 작업 협업 가능</li>
+              </ul>
+            </div>
+            <div class="box3">
+              <h1>COMMUNICATION</h1>
+              <ul>
+                <li>개인 보다는 팀, 혹은 단체의 목표를 우선 시</li>
+                <li>주어진 일의 해결을 위한 융통성 있는 접근</li>
+                <li>사용자의 편리성을 가장 먼저 생각할 줄 아는 사고</li>
+                <li>생산성과 협업을 위해 계속해서 새로운 언어 학습</li>
+              </ul>
+            </div>
+            <div class="box4">
+              <h1>CO-WORK</h1>
+              <ul>
+                <li>언제나 배움의 자세로 의견을 수용하는 개발자</li>
+                <li>디자이너와 타 개발자와 함께 효율적인 소통과 협업 가능</li>
+                <li>함께하는 팀원들의 의도를 파악하고 존중하는 태도</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="sec5" class="section">
-        <div class="inner"><h1 class="title">Contact</h1></div>
+        <h1>Contact</h1>
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="card-face card-face-front"><img src="./images/명함.png" alt="명함" /></div>
+            <div class="card-face card-face-back"><img src="./images/명함뒤.png" alt="명함뒷면" /></div>
+          </div>
+        </div>
+        <footer>
+          <div class="ff">
+            <div class="copy">
+              <p>©2023 NAYOON. All rights reserved</p>
+            </div>
+            <div class="blog">
+              <a href="">BLOG</a>
+              <a href="">GITHUB</a>
+              <a href="">colin_first@naver.com</a>
+            </div>
+          </div>
+        </footer>
       </section>
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
     <script src="./js/scripts.js"></script>
   </body>
