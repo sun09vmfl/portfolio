@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>김나윤 포트폴리오</title>
+    <title>NAYOON's Portfolio</title>
     <!-- 웹폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,7 +14,15 @@
     <link rel="stylesheet" href="./common/fonts/font.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <!-- 애니메이션 css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- 파비콘 -->
+    <link rel="icon" href="./common/favicon/favicon.ico" sizes="32x32" />
+    <!-- 오픈그라피 -->
+    <meta property="og:title" content="NAYOON's Portfolio" />
+    <meta property="og:url" content="https://sun09vmfl.github.io/portfolio/" />
+    <meta property="og:image" content="./images/opengraph.jpg" />
+    <meta property="og:description" content="김나윤의 포트폴리오입니다." />
+    <meta property="og:type" content="website" />
   </head>
   <body>
     <header>
@@ -42,7 +50,7 @@
     <div id="fullpage">
       <section id="sec0" class="section">
         <video muted autoplay loop>
-          <source src="./images/background2.mp4" type="video/mp4" />
+          <source src="./images/background2.mp4" type="video/mp4" class="video" />
         </video>
         <div class="mainlogo">
           <img src="./images/포트폴리오.png" class="pf-top" />
@@ -72,14 +80,9 @@
                 </div>
                 <div class="pj1-1">
                   <article class="project">
-                    <h1>Knotters</h1>
+                    <h1>JAVASCRIPT</h1>
                     <h3>팀 프로젝트 Knotters 웹사이트 제작</h3>
-                    <p>
-                      HTML5와 CSS3, 바닐라 JAVASCRIPT를 사용하여<br />
-                      광고 회사 Knotters의 웹페이지를 구현하였다.<br />
-                      바닐라 자바스크립트와 더불어 제이쿼리, 플러그인 등을<br />
-                      사용하여 역동적인 인터렉티브 웹을 완성하였다.
-                    </p>
+                    <p>팀 프로젝트를 통해 광고 회사 Knotters의 웹페이지를 구현하였다.<br /></p>
                     <div class="skills">
                       <div>HTML5</div>
                       <div>CSS3</div>
@@ -100,14 +103,9 @@
                 </div>
                 <div class="pj2-1">
                   <article class="project">
-                    <h1>React Project</h1>
-                    <h3>개인 React 웹사이트 제작</h3>
-                    <p>
-                      React로 웹페이지를 제작하였다.<br />
-                      컴포넌트를 분리하고, HTML과 SCSS뿐만 아니라<br />
-                      자바스크립트, 스와이퍼 등도 함께 사용하여<br />
-                      웹페이지를 제작하였다.
-                    </p>
+                    <h1>React</h1>
+                    <h3>개인 프로젝트 리액트 웹 제작</h3>
+                    <p>개인 프로젝트로 React 웹페이지를 제작하였다.<br /></p>
                     <div class="skills">
                       <div>REACT</div>
                       <div>HTML5</div>
@@ -120,10 +118,48 @@
               </div>
             </div>
             <div class="slide sl_03">
-              <div class="slide_inner">Slide 3</div>
+              <div class="num">03</div>
+              <div class="slide_inner">
+                <div class="pj3">
+                  <img src="#" alt="프로젝트3번" />
+                </div>
+                <div class="pj3-1">
+                  <article class="project">
+                    <h1>JAVASCRIPT</h1>
+                    <h3>개인 프로젝트 자바스크립트 웹 제작</h3>
+                    <p>개인 프로젝트로 자바스크립트 웹페이지를 제작하였다.<br /></p>
+                    <div class="skills">
+                      <div>HTML5</div>
+                      <div>CSS3</div>
+                      <div>JAVASCRIPT</div>
+                      <div>JQUERY</div>
+                      <div>PLUGIN</div>
+                    </div>
+                    <div class="view"><a href="#">VIEW</a></div>
+                  </article>
+                </div>
+              </div>
             </div>
             <div class="slide sl_04">
-              <div class="slide_inner">Slide 4</div>
+              <div class="num">04</div>
+              <div class="slide_inner">
+                <div class="pj4">
+                  <img src="#" alt="프로젝트4번" />
+                </div>
+                <div class="pj4-1">
+                  <article class="project">
+                    <h1>REACT</h1>
+                    <h3>개인 프로젝트 리액트 토이프로젝트 제작</h3>
+                    <p>개인 프로젝트로 리액트로 토이프로젝트를 제작하였다.<br /></p>
+                    <div class="skills">
+                      <div>React</div>
+                      <div>CSS3</div>
+                      <div>JAVASCRIPT</div>
+                    </div>
+                    <div class="view"><a href="#">VIEW</a></div>
+                  </article>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -164,7 +200,7 @@
               <div class="career">
                 <h2>Career</h2>
                 <ul>
-                  <li>SBS ‘이창섭의 inside’ 방송작가</li>
+                  <li>SBS 경제경영 ‘이창섭의 inside’ 방송작가</li>
                   <li>‘TERRA STONE’ 경영지원 주임</li>
                   <li>프론트엔드 개발 및 실무프로젝트 구현과정 및 양성 지원</li>
                 </ul>
@@ -231,7 +267,7 @@
         <div class="inner">
           <h1 class="title">Also, I can</h1>
           <div class="can-box">
-            <div class="box1 ">
+            <div class="box1">
               <h1>PHOTOSHOP & ILLUSTRATOR</h1>
               <ul>
                 <li>이미지 편집 & 디자인</li>
@@ -241,7 +277,7 @@
                 <li>FIGMA로 프로토타입 제작</li>
               </ul>
             </div>
-            <div class="box2 ">
+            <div class="box2">
               <h1>WRITING</h1>
               <ul>
                 <li>사용자의 편의와 디자인과 어울리는 텍스트 작성 가능</li>
@@ -260,7 +296,7 @@
               </ul>
             </div>
             <!-- animate__animated animate__fadeInLeft -->
-            <div class="box4 ">
+            <div class="box4">
               <h1>CO-WORK</h1>
               <ul>
                 <li>언제나 배움의 자세로 의견을 수용하는 개발자</li>

@@ -68,9 +68,9 @@ h1.title {
   height: 503px;
   /* left: 607px;
   top: 250px; */
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #sec0 .mainlogo .pf-top {
   position: absolute;
@@ -84,7 +84,7 @@ h1.title {
   width: 488px;
   height: 56px;
   left: 65%;
-  top:85%;
+  top: 85%;
 }
 #sec0 .mainlogo .pf-blackstarbig {
   position: absolute;
@@ -312,10 +312,7 @@ h1.title {
 }
 .sl_01 .slide_inner .pj1-1 .project .view a:hover {
   color: #121212;
-}
-
-.sl_01 .slide_inner .pj1-1 .project .view:hover {
-  background-color: transparent;
+  font-weight: bold;
 }
 
 /* 프로젝트2 */
@@ -333,7 +330,7 @@ h1.title {
 
 .sl_02 .slide_inner .pj2-1 .project h1 {
   font-family: 'AmericanaStd', 'Abril Fatface', cursive;
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: #121212;
   margin-top: 20px;
 }
@@ -387,11 +384,168 @@ h1.title {
   background-color: transparent;
 }
 
-.sl_03 {
-  background-color: #eb8e24;
+/* 프로젝트 3 */
+.sl_03 .slide_inner .pj3 {
+  width: 55%;
 }
-.sl_04 {
-  background-color: #ec98d9;
+
+.sl_3 .slide_inner .pj3 img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.sl_03 .slide_inner .pj3-1 .project {
+  padding-left: 90px;
+}
+
+.sl_03 .slide_inner .pj3-1 .project h1 {
+  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
+  font-size: 2.5em;
+  color: #121212;
+  margin-top: 20px;
+}
+.sl_03 .slide_inner .pj3-1 .project h3 {
+  font-size: 25px;
+  color: #121212;
+  font-family: 'Pretendard Variable', '맑음고딕', sans-serif;
+  padding-bottom: 10px;
+}
+
+.sl_03 .slide_inner .pj3-1 .project p {
+  font-size: 16px;
+  color: #121212;
+}
+.sl_03 .slide_inner .pj3-1 .project .skills {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.sl_03 .slide_inner .pj3-1 .project .skills div {
+  border: 2px solid #121212;
+  color: #121212;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.sl_03 .slide_inner .pj3-1 .project .view {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: rgb(129, 129, 129);
+  font-size: 18px;
+  width: 80px;
+  padding: 7px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.4;
+}
+.sl_03 .slide_inner .pj3-1 .project .view a {
+  color: #fff;
+  font-family: 'Pretendard Variable', '맑음고딕', sans-serif;
+  display: block;
+  width: 100%;
+  transition: 0.4;
+}
+.sl_03 .slide_inner .pj3-1 .project .view a:hover {
+  color: #121212;
+}
+
+#sec1 .sl_03 .num {
+  position: absolute;
+  width: 349px;
+  height: 358px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 250px;
+  line-height: 358px;
+  right: 27.14%;
+  background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+/* 프로젝트 4 */
+.sl_04 .slide_inner .pj4 {
+  width: 55%;
+}
+
+.sl_4 .slide_inner .pj4 img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.sl_04 .slide_inner .pj4-1 .project {
+  padding-left: 90px;
+}
+
+.sl_04 .slide_inner .pj4-1 .project h1 {
+  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
+  font-size: 2.5em;
+  color: #121212;
+  margin-top: 20px;
+}
+.sl_04 .slide_inner .pj4-1 .project h3 {
+  font-size: 25px;
+  color: #121212;
+  font-family: 'Pretendard Variable', '맑음고딕', sans-serif;
+  padding-bottom: 10px;
+}
+
+.sl_04 .slide_inner .pj4-1 .project p {
+  font-size: 16px;
+  color: #121212;
+}
+.sl_04 .slide_inner .pj4-1 .project .skills {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.sl_04 .slide_inner .pj4-1 .project .skills div {
+  border: 2px solid #121212;
+  color: #121212;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.sl_04 .slide_inner .pj4-1 .project .view {
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-color: rgb(129, 129, 129);
+  font-size: 18px;
+  width: 80px;
+  padding: 7px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.4;
+}
+.sl_04 .slide_inner .pj4-1 .project .view a {
+  color: #fff;
+  font-family: 'Pretendard Variable', '맑음고딕', sans-serif;
+  display: block;
+  width: 100%;
+  transition: 0.4;
+}
+.sl_04 .slide_inner .pj4-1 .project .view a:hover {
+  color: #121212;
+}
+
+#sec1 .sl_04 .num {
+  position: absolute;
+  width: 349px;
+  height: 358px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 250px;
+  line-height: 358px;
+  right: 2%;
+  background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .fp-controlArrow.fp-next {
@@ -405,8 +559,6 @@ h1.title {
   border-width: 19.5px 18px 19.5px 0;
   border-color: transparent rgb(41, 41, 41) transparent transparent;
 }
-
-/* 슬라이더 끝 */
 
 /* about 시작 */
 
@@ -633,16 +785,15 @@ h1.title {
 }
 
 /* 스킬2 애니메이션 부분 */
- .box1.animate__animated.animate__fadeInLeft {
+.box1.animate__animated.animate__fadeInLeft {
   /* animation-duration: 3.5s; */
   opacity: 0;
 }
 .box2.animate__animated.animate__fadeInLeft {
   /* animation-duration: 1.2s; */
 }
- .box3.animate__animated.animate__fadeInRight {
+.box3.animate__animated.animate__fadeInRight {
   /* animation-duration: 1.2s; */
-
 }
 .box4.animate__animated.animate__fadeInRight {
   /* animation-duration: 3.5s; */
@@ -688,10 +839,6 @@ h1.title {
   opacity: 1;
   transform: translateX(0);
 }
-
-
-
-
 
 /* 컨텍트 섹션 */
 
