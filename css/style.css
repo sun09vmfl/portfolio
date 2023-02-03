@@ -710,10 +710,16 @@ h1.title {
   padding: 30px;
 }
 #sec4 .can-box ul li {
-  padding: 10px;
-  font-size: 1.25em;
-  font-family: 'modu', 'welcom', 'Pretendard', '맑은 고딕', sans-serif;
+  padding: 10px 0;
+  font-size: 1em;
+  font-family: 'Pretendard', 'welcom', '맑은 고딕', sans-serif;
+  list-style-position: outside;
+  list-style: circle;
 }
+#sec4 .can-box ul {
+  padding-left: 20px;
+}
+
 #sec4 .inner .can-box {
   display: flex;
   height: 600px;
@@ -778,10 +784,6 @@ h1.title {
   height: 427px;
   margin-left: 1.2vw;
   background: url(../images/skill4.jpg) 50% / cover;
-}
-#sec4 .inner .can-box ul li {
-  list-style: circle;
-  list-style-position: inside;
 }
 
 /* 스킬2 애니메이션 부분 */
