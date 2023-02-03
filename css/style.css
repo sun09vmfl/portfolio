@@ -59,70 +59,74 @@ h1.title {
   height: 100vh;
   object-fit: cover;
   overflow: hidden;
+  position: relative;
 }
 
 #sec0 .mainlogo .pf-main {
   position: absolute;
   width: 656px;
   height: 503px;
-  left: 607px;
-  top: 250px;
+  /* left: 607px;
+  top: 250px; */
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 #sec0 .mainlogo .pf-top {
   position: absolute;
   width: 470px;
   height: 56px;
-  left: 104px;
-  top: 60px;
+  left: 3%;
+  top: 5%;
 }
 #sec0 .mainlogo .pf-email {
   position: absolute;
   width: 488px;
   height: 56px;
-  left: 1300px;
-  top: 896px;
+  left: 65%;
+  top:85%;
 }
 #sec0 .mainlogo .pf-blackstarbig {
   position: absolute;
   width: 323px;
   height: 406px;
-  left: 1445px;
-  top: 135px;
+  left: 77%;
+  top: 13%;
 }
 #sec0 .mainlogo .pf-blackstarsmall {
   position: absolute;
   width: 116px;
   height: 146px;
-  left: 1618px;
-  top: 366px;
+  left: 78%;
+  top: 45%;
 }
 #sec0 .mainlogo .pf-bigstar {
   position: absolute;
   width: 470px;
   height: 470px;
-  left: 14px;
-  top: 193px;
+  left: -10%;
+  top: 35%;
 }
 #sec0 .mainlogo .pf-smallstar {
   position: absolute;
   width: 126px;
   height: 157px;
-  left: 276px;
-  top: 520px;
+  left: 22%;
+  top: 30%;
 }
 #sec0 .mainlogo .pf-blackbottom {
   position: absolute;
   width: 157px;
   height: 197px;
-  left: 283px;
-  top: 755px;
+  left: 25%;
+  top: 75%;
 }
 #sec0 .mainlogo .pf-bigstarmiddle {
   position: absolute;
   width: 210px;
   height: 213px;
-  left: 1025px;
-  top: 98px;
+  left: 60%;
+  top: 10%;
   animation: ani2 0.4s ease-in-out infinite alternate;
   transition: 0.4s;
 }
@@ -130,7 +134,7 @@ h1.title {
   position: absolute;
   width: 210px;
   height: 213px;
-  left: 1235px;
+  left: 95%;
   top: 637px;
   transition: 1s;
   -webkit-animation: ani1 0.8s ease-in-out infinite alternate;
@@ -627,6 +631,67 @@ h1.title {
   list-style: circle;
   list-style-position: inside;
 }
+
+/* 스킬2 애니메이션 부분 */
+ .box1.animate__animated.animate__fadeInLeft {
+  /* animation-duration: 3.5s; */
+  opacity: 0;
+}
+.box2.animate__animated.animate__fadeInLeft {
+  /* animation-duration: 1.2s; */
+}
+ .box3.animate__animated.animate__fadeInRight {
+  /* animation-duration: 1.2s; */
+
+}
+.box4.animate__animated.animate__fadeInRight {
+  /* animation-duration: 3.5s; */
+}
+
+#sec4 .box1 {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1s ease-in-out;
+  transition-delay: 1.4s;
+}
+#sec4.active .box1 {
+  opacity: 1;
+  transform: translateX(0);
+}
+#sec4 .box2 {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1.3s ease-in-out;
+  transition-delay: 1.2s;
+}
+#sec4.active .box2 {
+  opacity: 1;
+  transform: translateX(0);
+}
+#sec4 .box3 {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1.6s ease-in-out;
+  transition-delay: 1s;
+}
+#sec4.active .box3 {
+  opacity: 1;
+  transform: translateX(0);
+}
+#sec4 .box4 {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1.8s ease-in-out;
+  transition-delay: 0.8s;
+}
+#sec4.active .box4 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+
 
 /* 컨텍트 섹션 */
 
