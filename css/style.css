@@ -141,34 +141,13 @@ h1.title {
   -moz-animation: ani1 0.8s ease-in-out infinite alternate;
   animation: ani1 0.8s ease-in-out infinite alternate;
 }
-/* 
-@keyframes ani1 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes ani2 {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.4);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-} */
 
 #sec1 .inner {
   justify-content: space-around;
 }
 
-/* 슬라이더 */
 
+/* Work 슬라이더 */
 .slider_wrap {
   width: 75%;
   height: 60%;
@@ -222,7 +201,8 @@ h1.title {
   width: 349px;
   height: 358px;
   left: 17%;
-  bottom: 34%;
+  top:-5%;
+
 
   font-family: 'Pretendard';
   font-style: normal;
@@ -252,7 +232,8 @@ h1.title {
   font-weight: 800;
   font-size: 250px;
   line-height: 358px;
-  right: 8%;
+  right: 4%;
+  top:-5%;
 
   background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
   -webkit-background-clip: text;
@@ -263,7 +244,7 @@ h1.title {
 
 .sl_01 .slide_inner .pj1-1 .project h1 {
   font-family: 'AmericanaStd', 'Abril Fatface', cursive;
-  font-size: 2.5em;
+  font-size: 2em;
   color: #121212;
   z-index: 9999;
   margin-top: 20px;
@@ -399,7 +380,7 @@ h1.title {
 
 .sl_03 .slide_inner .pj3-1 .project h1 {
   font-family: 'AmericanaStd', 'Abril Fatface', cursive;
-  font-size: 2.5em;
+  font-size: 2em;
   color: #121212;
   margin-top: 20px;
 }
@@ -459,6 +440,7 @@ h1.title {
   font-size: 250px;
   line-height: 358px;
   right: 27.14%;
+  top:-5%;
   background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -541,6 +523,7 @@ h1.title {
   font-size: 250px;
   line-height: 358px;
   right: 2%;
+  top:-5%;
   background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -728,78 +711,37 @@ h1.title {
   margin: auto;
   width: 80vw;
 }
-#sec4 .inner .can-box .box1 {
+#sec4 .inner .can-box .box {
   border: 1px solid #121212;
   font-size: 17px;
   box-sizing: border-box;
   width: 300px;
   height: 427px;
   margin-left: 1.2vw;
-  background: url(../images/skill1.jpg) 50% / cover;
-  align-self: flex-end;
 }
-#sec4 .inner .can-box .box1 ul {
-  width: 85%;
-  margin: auto;
-}
-#sec4 .inner .can-box .box2 ul {
-  width: 85%;
-  margin: auto;
-}
-#sec4 .inner .can-box .box3 ul {
-  width: 85%;
-  margin: auto;
-}
-#sec4 .inner .can-box .box4 ul {
+
+#sec4 .inner .can-box ul {
   width: 85%;
   margin: auto;
 }
 
+#sec4 .inner .can-box .box1 {
+  background: url(../images/skill1.jpeg) 50% / cover;
+  align-self: flex-end;
+}
 #sec4 .inner .can-box .box2 {
-  border: 1px solid #121212;
-  font-size: 17px;
-  box-sizing: border-box;
-  width: 300px;
-  height: 427px;
-  margin-left: 1.2vw;
-  background: url(../images/skill2.jpg) 50% / cover;
+  background: url(../images/skill2.jpeg) 50% / cover;
 }
 
 #sec4 .inner .can-box .box3 {
-  border: 1px solid #121212;
-  box-sizing: border-box;
-  font-size: 17px;
-  width: 300px;
-  height: 427px;
-  margin-left: 1.2vw;
-  background: url(../images/skill3.jpg) 50% / cover;
+  background: url(../images/skill3.jpeg) 50% / cover;
   align-self: flex-end;
 }
 
 #sec4 .inner .can-box .box4 {
-  border: 1px solid #121212;
-  font-size: 17px;
-  box-sizing: border-box;
-  width: 300px;
-  height: 427px;
-  margin-left: 1.2vw;
-  background: url(../images/skill4.jpg) 50% / cover;
+  background: url(../images/skill4.jpeg) 50% / cover;
 }
 
-/* 스킬2 애니메이션 부분 */
-.box1.animate__animated.animate__fadeInLeft {
-  /* animation-duration: 3.5s; */
-  opacity: 0;
-}
-.box2.animate__animated.animate__fadeInLeft {
-  /* animation-duration: 1.2s; */
-}
-.box3.animate__animated.animate__fadeInRight {
-  /* animation-duration: 1.2s; */
-}
-.box4.animate__animated.animate__fadeInRight {
-  /* animation-duration: 3.5s; */
-}
 
 #sec4 .box1 {
   opacity: 0;
