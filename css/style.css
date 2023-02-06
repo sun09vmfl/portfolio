@@ -1,9 +1,54 @@
+@media screen and (max-width: 768px) {
+  header .logo a img {
+    width: 150px;
+  }
+  header #nav-icon {
+    width: 20px;
+    height: 20px;
+  }
+  header .nav {
+    font-size: 12px;
+  }
+  header .nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  header .nav ul li {
+    padding: 10px;
+  }
+  #sec0 video,
+  .mainlogo {
+    display: none;
+  }
+  #sec0 .MediaQuery-img {
+    height: 100vh;
+    background: url(../images/mediaqu.png) no-repeat 50% / cover;
+  }
+
+  /* 슬라이드 */
+  #sec1 .inner .title {
+    font-size: 2em;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
+  #sec1 .inner .slider_wrap {
+    display: none;
+  }
+
+  #sec1 .work-mediaquery {
+    height: 100vh;
+    display: block;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Pretendard';
 }
+
 ul {
   list-style: none;
 }
@@ -53,6 +98,9 @@ h1.title {
 
 #sec0 {
   z-index: 1;
+}
+#sec0 .MediaQuery {
+  display: none;
 }
 
 #sec0 video {
@@ -145,6 +193,10 @@ h1.title {
 
 #sec1 .inner {
   justify-content: space-around;
+}
+
+#sec1 .work-mediaquery {
+  display: none;
 }
 
 /* Work 슬라이더 */
@@ -338,7 +390,6 @@ h1.title {
   height: 1077px;
   left: -504px;
   top: -461px;
-
   background: linear-gradient(180deg, rgba(112, 203, 255, 0.43) 27.6%, rgba(238, 48, 255, 0.33) 52.6%, rgba(245, 170, 238, 0.49) 84.37%);
   filter: blur(150px);
   z-index: -1;
@@ -531,7 +582,7 @@ h1.title {
   opacity: 0;
   transform: translateX(-100%);
   transition: 1s ease-in-out;
-  transition-delay: 1.4s;
+  transition-delay: 1s;
 }
 #sec4.active .box1 {
   opacity: 1;
@@ -541,7 +592,7 @@ h1.title {
   opacity: 0;
   transform: translateX(-100%);
   transition: 1.3s ease-in-out;
-  transition-delay: 1.2s;
+  transition-delay: 0.8s;
 }
 #sec4.active .box2 {
   opacity: 1;
@@ -551,7 +602,7 @@ h1.title {
   opacity: 0;
   transform: translateX(-100%);
   transition: 1.6s ease-in-out;
-  transition-delay: 1s;
+  transition-delay: 0.5s;
 }
 #sec4.active .box3 {
   opacity: 1;
@@ -561,7 +612,7 @@ h1.title {
   opacity: 0;
   transform: translateX(-100%);
   transition: 1.8s ease-in-out;
-  transition-delay: 0.8s;
+  transition-delay: 0.3s;
 }
 #sec4.active .box4 {
   opacity: 1;
