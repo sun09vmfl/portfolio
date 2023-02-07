@@ -524,7 +524,7 @@ h1.title {
 /* skill2 섹션 */
 
 #sec4 .can-box h1 {
-  font-family: 'AmericanaStd', sans-serif;
+  font-family: 'AmericanaStd', 'Pretendard', sans-serif;
   text-align: center;
   padding: 30px;
 }

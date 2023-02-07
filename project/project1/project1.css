@@ -1,0 +1,137 @@
+* {
+  font-family: 'Pretendard', 'welcom', '맑은 고딕', sans-serif;
+}
+.en {
+  font-family: 'AmericanaStd', 'Pretendard', sans-serif;
+}
+body header {
+  /* Rectangle 33 */
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(180deg, #e9a6fa 0%, rgba(255, 173, 246, 0.982848) 29.77%, rgba(164, 225, 251, 0.62) 78.24%, rgba(217, 217, 217, 0) 100%);
+  z-index: -1;
+}
+
+body header .back {
+  position: fixed;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 1.2em;
+}
+
+body header h1 {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  margin-bottom: 100px;
+}
+
+body .main-photo {
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+  margin-top: 350px;
+}
+body .main-info {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .main-info .title-left {
+  font-size: 5em;
+  /* margin: 50px auto; */
+  position: relative;
+}
+body .main-info .title-left .one {
+  /* Ellipse 5 */
+  position: absolute;
+  left: -25px;
+  width: 74px;
+  height: 74px;
+  border-radius: 74px;
+  z-index: -9;
+  background: linear-gradient(
+    180deg,
+    rgba(131, 0, 211, 0.64) 0%,
+    rgba(242, 90, 245, 0.56) 25.5%,
+    rgba(75, 188, 224, 0.52) 59.9%,
+    rgba(147, 197, 242, 0.51) 79.17%,
+    rgba(217, 217, 217, 0.3) 100%
+  );
+}
+
+body .main-info .title-right {
+  display: flex;
+  flex-direction: column;
+}
+body .main-info .title-right li {
+  padding-top: 10px;
+  list-style: circle;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+body .info1 .title-right li:first-child {
+  list-style: none;
+}
+body .info2 .title-right li:last-child {
+  list-style: none;
+}
+
+body .main-info .title-right .overview {
+  width: 140px;
+  padding: 13px;
+  text-align: center;
+  border: 2px solid #000;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+/* 토글 버튼 */
+.info3 .title-right .container .section {
+  overflow: hidden;
+  transition: 0.5s ease-out;
+  height: 0px;
+}
+
+.info3 .title-right .container .section.collapsed {
+  height: 600px;
+}
+
+.info3 .title-right p {
+  margin: 10px;
+}
+
+.info3 .title-right .container {
+  width: 30vw;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  --webkit-appearance: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  background: #94a8fd;
+  color: rgb(255, 255, 255);
+  margin: 15px auto;
+  padding: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease-out;
+}
+button:hover {
+  box-shadow: 0px 0px 15px lightgrey;
+}
+button:active {
+  box-shadow: 0px 0px 10px lightgrey;
+}
+button:focus {
+  outline: none;
+}
