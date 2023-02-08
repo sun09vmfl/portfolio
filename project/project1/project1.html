@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
+    <!-- 파비콘 -->
+    <link rel="icon" href="../common/favicon/favicon.ico" sizes="32x32" />
+    <!-- aos 라이브러리 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- my style -->
     <link rel="stylesheet" href="../common/minireset.min.css" />
     <link rel="stylesheet" href="../common/fonts/font.css" />
@@ -19,38 +23,38 @@
       <img src="./images/main-mokup.png" alt="프로젝트 설명 메인" />
     </div>
 
-    <div class="main-info info1">
-      <div class="title-left en">
-        <div class="one"></div>
-        portfolio
+    <div class="main-container">
+      <div class="main-info info1">
+        <div class="title-left en" data-aos="fade-right">
+          <div class="one"></div>
+          portfolio
+        </div>
+        <ul class="title-right" data-aos="fade-up">
+          <li><div class="en overview">OVERVIEW</div></li>
+          <li>신입 개발자로서 배운 바와 나의 색깔을 잘 드러낼 수 있는 포트폴리오 프로젝트입니다.</li>
+          <li>개인 프로젝트 100%</li>
+        </ul>
       </div>
-      <ul class="title-right">
-        <li><div class="en overview">OVERVIEW</div></li>
-        <li>신입 개발자로서 배운 바와 나의 색깔을 잘 드러낼 수 있는 포트폴리오 프로젝트입니다.</li>
-        <li>개인 프로젝트 100%</li>
-        <li>2023.01.01~</li>
-      </ul>
-    </div>
 
-    <div class="main-info info2">
-      <div class="title-left">
-        <h1 class="en">directory</h1>
+      <div class="main-info info2">
+        <div class="title-left" data-aos="fade-right">
+          <h1 class="en">Directory</h1>
+        </div>
+        <ul class="title-right" data-aos="fade-up">
+          <li>포트폴리오 제작에 앞서 가장 중요시한 것은 코드컨벤션과 디렉토리 구조 구상이었습니다.</li>
+          <li>
+            팀프로젝트를 통해 코드컨벤션에 대해 중요성과 더불어 디렉토리 구조 파악이<br />
+            홈페이지 제작에 있어서 중요하다는 사실을 이미 몸으로 체득했기 때문입니다.
+          </li>
+          <li><img src="./images/directory.PNG" alt="" /></li>
+        </ul>
       </div>
-      <ul class="title-right">
-        <li>포트폴리오 제작에 앞서 가장 중요시한 것은 코드컨벤션과 디렉토리 구조 구상이었습니다.</li>
-        <li>
-          팀프로젝트를 통해 코드컨벤션에 대해 중요성과 더불어 디렉토리 구조 파악이<br />
-          홈페이지 제작에 있어서 중요하다는 사실을 이미 몸으로 체득했기 때문입니다.
-        </li>
-        <li><img src="./images/directory.PNG" alt="" /></li>
-      </ul>
-    </div>
 
-    <div class="main-info info3">
-      <div class="title-left">
-        <h1 class="en">Cording<br />Convention</h1>
-      </div>
-      <div class="title-right">
+      <div class="main-info info3">
+        <div class="title-left" data-aos="fade-right">
+          <h1 class="en">Cording<br />Convention</h1>
+        </div>
+        <div class="title-right" data-aos="fade-up">
           <div class="section collapsible">
             <h2 class="en">Cording Convention</h2>
             <button type="button" class="collapsible">📁 파일 및 폴더 분류</button>
@@ -69,15 +73,15 @@
                 <li>3. style.css와 js 파일 생성시, html과 동일하게 생성.</li>
               </ul>
             </div>
-            <button type="button" class="collapsible">📁  네이밍</button>
+            <button type="button" class="collapsible">📁 네이밍</button>
             <div class="content">
               <ul>
-                <li>1. html, css의 id 및 class 값은 기본적으로 소문자로 작성하되 두 단어 이상 조합 시 기본 ‘-’ 하이픈 작성. js는 카멜표기법과 ‘_’ 언더바 작성.</li>
+                <li>1. html, css의 id 및 class 값은 기본적으로 소문자로 작성하되 두 단어 이상 조합 시 기본 '-' 하이픈 작성. js는 카멜표기법과 '_' 언더바 작성.</li>
                 <li>2. querySelectorAll 사용 시, 변수명은 s를 붙여 인지에 용이하게 함.</li>
                 <li>3. html의 구조는 header, bodt, footer로 구조를 분명하게 함.</li>
               </ul>
             </div>
-            <button type="button" class="collapsible">📁 식과 구조</button>
+            <button type="button" class="collapsible">📁 식과 구조</button>
             <div class="content">
               <ul>
                 <li>1. 들여쓰기는 기본 tab을 사용. (tab 사이즈는 2로 통일)</li>
@@ -87,24 +91,80 @@
                 <li>5. 기본적인 작성 방식은 vscode 내 prettier 작성 방식을 따름.</li>
               </ul>
             </div>
-
-
-    <div class="main-info info4">
-      <div class="title-left">
-        <h1 class="en">Using <br/> Skills</h1>
+          </div>
+        </div>
       </div>
-      <ul class="title-right">
-        <h1><img src="" alt=""></h1>
-        <li>웹 표준, 웹접근성을 준수하는 표준 시멘틱 마크업</li>
-        <li>
-        
-        </li>
-     
-      </ul>
-    </div>
+      <div class="main-info info5">
+        <div class="title-left" data-aos="fade-right">
+          <h1 class="en">Using Skills</h1>
+        </div>
+        <div class="title-right" data-aos="fade-up">
+          <h1><img src="./images/html.png" alt="skill1" /></h1>
+          <ul>
+            <li>웹 표준, 웹접근성을 준수하는 표준 시멘틱 마크업</li>
+          </ul>
+          <h1><img src="./images/css3.png" alt="skill1" /></h1>
+          <ul>
+            <li>CSS Animation을 활용한 모션 구현</li>
+            <li>flex, grid, position을 이용한 레이아웃</li>
+          </ul>
+          <h1><img src="./images/javascript.png" alt="skill1" /></h1>
+          <ul>
+            <li>CSS Animation을 활용한 모션 구현</li>
+            <li>flex, grid, position을 이용한 레이아웃</li>
+          </ul>
+          <ul>
+            <li><strong>LIBRARY</strong> : fullpage</li>
+            <li><strong>TOOL</strong> :GitHub, Visual Studio Code, Figma, Illustrator, photoshop</li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="main-info info6">
+        <div class="title-left" data-aos="fade-right">
+          <h1 class="en">Page Section</h1>
+        </div>
+        <div class="title-right" data-aos="fade-up">
+          <h2 class="en"><span>1. Work Section</span></h2>
+          <ul>
+            <li>- 폐쇠적인 풀페이지 특성상 가장 대표적인 슬라이드 플러그인 swiper를 사용하지 않고<br />풀페이지 내부의 슬라이드를 사용.</li>
+            <li>
+              - 페이지를 꾸미는 데 있어서 다소 아쉬움이 남아 화려함을 주고자 하여 페이지 숫자에<br />
+              `position : absolute` 값을 통해 위치를 지정하여 표현.
+            </li>
+          </ul>
+
+          <h2 class="en"><span>2. About Section</span></h2>
+          <ul>
+            <li>- 마우스에 의해 움직이는 원을 만들어 마우스 좌표를 인식하고자 했다.</li>
+          </ul>
+
+          <h2 class="en"><span>3. Skill Section</span></h2>
+          <ul>
+            <li>- grid를 통해 네 가지 스킬 박스를 정렬.</li>
+            <li>
+              - flex를 통해 정렬 후 Masonry 레이아웃으로 위치하기 위해 네 개의 박스의 부모에<br />`align-items: flex-start;` **를 적용 시킨 뒤 첫 번째, 세 번째 박스에만<br />
+              `align-self: flex-end;` 를 적용시켜 박스를 위치시켰다
+            </li>
+            <li>- transform과 transition을 통해서 가장 우측의 박스부터 하나씩 나오도록 구성</li>
+          </ul>
+          <h2 class="en"><span>4. Contact Section</span></h2>
+          <ul>
+            <li>- 명함이 뒤집히는 모션을 표현하기 위해 자바스크립트의 addEventListener, classlist사용</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-info info7">
+        <div class="title-left" data-aos="fade-right">
+          <h1 class="en">Solution</h1>
+        </div>
+        <div class="title-right" data-aos="fade-up">
+          <h1></h1>
+        </div>
       </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./project1.js"></script>
   </body>
 </html>
