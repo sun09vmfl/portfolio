@@ -242,10 +242,17 @@ body .main-info .title-right .overview {
   line-height: 2;
 }
 
+/* info8 review*/
+.info8 .title-right p {
+  font-size: 20px;
+  padding-bottom: 15px;
+  line-height: 1.8;
+}
+
 footer {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 200px;
   line-height: 200px;
   font-size: 1.5em;
