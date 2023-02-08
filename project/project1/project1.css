@@ -74,6 +74,16 @@ body .info1 ul li:nth-child(3):before {
   height: 27px;
   background-color: #e9a6fa;
 }
+body .info1 ul li:nth-child(4):before {
+  position: absolute;
+  top: 9px;
+  left: -10px;
+  content: '';
+  display: block;
+  width: 5px;
+  height: 27px;
+  background-color: #e9a6fa;
+}
 body .main-info .title-left {
   font-size: 5em;
   /* margin: 50px auto; */
@@ -142,11 +152,16 @@ body .main-info .title-right .overview {
   font-size: 30px;
   margin-bottom: 30px;
 }
+.collapsible span {
+  padding-left: 30px;
+  color: rgb(243, 122, 122);
+}
 
 .content {
-  padding: 0 18px;
+  padding: 0 25px;
   display: none;
   overflow: hidden;
+  height: 220px;
   /* background-color: #f1f1f1; */
 }
 
@@ -159,13 +174,21 @@ body .main-info .title-right .overview {
   vertical-align: bottom;
 }
 .info4 ul {
-  padding: 5px;
+  margin-bottom: 30px;
 }
 .info4 ul li {
   padding: 5px;
 }
 
-/* info5 */
+/* info5 using skill */
+.info5 .title-right ul {
+  margin-bottom: 25px;
+}
+.info5 .title-right ul li {
+  padding: 10px;
+}
+
+/* info6 page section */
 .info6 h1 {
   font-size: 0.9em;
 }
@@ -173,11 +196,10 @@ body .main-info .title-right .overview {
   font-size: 30px;
 }
 .info6 .title-right ul {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 .info6 .title-right ul li {
-  line-height: 1.5;
-  letter-spacing: 1.5;
+  padding-bottom: 15px;
 }
 .info6 .title-right span {
   display: inline-block;
@@ -204,4 +226,32 @@ body .main-info .title-right .overview {
   100% {
     width: 100%;
   }
+}
+
+.info7 .title-right h1 {
+  font-size: 25px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.info7 .title-right h1 span {
+  color: #b465f5;
+}
+.info7 .title-right p {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  line-height: 200px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer a {
+  font-family: 'Pretendard', 'welcom', '맑은 고딕', sans-serif;
 }
