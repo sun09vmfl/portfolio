@@ -82,6 +82,7 @@ body .info1 .title-right li:first-child {
 body .info2 .title-right li:last-child {
   list-style: none;
 }
+body .info3 h1 {font-size: 0.8em;}
 
 body .main-info .title-right .overview {
   width: 140px;
@@ -92,46 +93,27 @@ body .main-info .title-right .overview {
   list-style: none;
 }
 
+
 /* 토글 버튼 */
-.info3 .title-right .container .section {
-  overflow: hidden;
-  transition: 0.5s ease-out;
-  height: 0px;
-}
-
-.info3 .title-right .container .section.collapsed {
-  height: 600px;
-}
-
-.info3 .title-right p {
-  margin: 10px;
-}
-
-.info3 .title-right .container {
-  width: 30vw;
-  margin: 0 auto;
-  border-radius: 3px;
-}
-
-button {
-  display: block;
-  --webkit-appearance: none;
-  font-size: 18px;
-  border: none;
-  border-radius: 3px;
-  background: #94a8fd;
-  color: rgb(255, 255, 255);
-  margin: 15px auto;
-  padding: 15px;
+ .collapsible {
+  /* background: #94a8fd; */
+  /* color: white; */
   cursor: pointer;
-  transition: box-shadow 0.5s ease-out;
-}
-button:hover {
-  box-shadow: 0px 0px 15px lightgrey;
-}
-button:active {
-  box-shadow: 0px 0px 10px lightgrey;
-}
-button:focus {
+  padding: 18px;
+  width: 40vw;
+  border: none;
+  text-align: left;
   outline: none;
+  font-size: 15px;
+}
+.collapsible h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  /* background-color: #f1f1f1; */
 }
