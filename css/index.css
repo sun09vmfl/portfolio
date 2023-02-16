@@ -270,7 +270,7 @@ h1.title {
 }
 
 #sec1 .sl_01 .num {
-  left: 14%;
+  left: 10%;
   top: -7%;
 }
 
@@ -339,7 +339,7 @@ h1.title {
   position: relative;
 }
 #sec1 .sl_02 .num {
-  right: 4%;
+  right: 8%;
   top: -5%;
 }
 
@@ -357,7 +357,7 @@ h1.title {
   position: relative;
 }
 #sec1 .sl_04 .num {
-  right: 5.5%;
+  right: 8%;
   top: -5%;
 }
 
@@ -367,7 +367,26 @@ h1.title {
 }
 
 #sec1 .sl_05 .num {
-  right: 5.5%;
+  right: 8%;
+  top: -5%;
+}
+/* 프로젝트 6 */
+#sec1 .sl_06 {
+  position: relative;
+}
+
+#sec1 .sl_06 .num {
+  right: 8%;
+  top: -5%;
+}
+
+/* 프로젝트 7 */
+#sec1 .sl_07 {
+  position: relative;
+}
+
+#sec1 .sl_07 .num {
+  right: 8%;
   top: -5%;
 }
 
