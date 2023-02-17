@@ -365,6 +365,10 @@ h1.title {
 #sec1 .sl_05 {
   position: relative;
 }
+#sec1 .sl_05 img {
+  width: 300px;
+  height: 540px;
+}
 
 #sec1 .sl_05 .num {
   right: 8%;
