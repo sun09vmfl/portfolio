@@ -45,7 +45,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Pretendard';
+  font-family: "Pretendard";
 }
 
 ul {
@@ -72,7 +72,7 @@ header {
 h1.title {
   font-size: 3em;
   color: #121212;
-  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
+  font-family: "AmericanaStd", "Abril Fatface", cursive;
   opacity: 0;
   position: absolute;
   top: 150px;
@@ -255,13 +255,17 @@ h1.title {
   position: absolute;
   width: 349px;
   height: 358px;
-  font-family: 'Pretendard';
+  font-family: "Pretendard";
   font-style: normal;
   font-weight: 800;
   font-size: 250px;
   line-height: 358px;
   /* identical to box height */
-  background: linear-gradient(180deg, rgba(240, 64, 255, 0.38) 0%, rgba(255, 181, 181, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(240, 64, 255, 0.38) 0%,
+    rgba(255, 181, 181, 0) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -275,7 +279,7 @@ h1.title {
 }
 
 .slide .slide_inner .project h1 {
-  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
+  font-family: "AmericanaStd", "Abril Fatface", cursive;
   font-size: 2em;
   color: #121212;
   z-index: 9999;
@@ -285,7 +289,7 @@ h1.title {
 .slide .slide_inner .project h3 {
   font-size: 25px;
   color: #121212;
-  font-family: 'Pretendard', '맑음고딕', sans-serif;
+  font-family: "Pretendard", "맑음고딕", sans-serif;
   padding-bottom: 10px;
 }
 
@@ -323,7 +327,7 @@ h1.title {
 
 .slide .slide_inner .work .project .view a {
   color: #fff;
-  font-family: 'Pretendard Variable', '맑음고딕', sans-serif;
+  font-family: "Pretendard Variable", "맑음고딕", sans-serif;
   display: block;
   width: 100%;
   transition: 0.4;
@@ -366,8 +370,9 @@ h1.title {
   position: relative;
 }
 #sec1 .sl_05 img {
-  width: 300px;
-  height: 540px;
+  margin-left: 15px;
+  width: 250px;
+  height: 450px;
 }
 
 #sec1 .sl_05 .num {
@@ -415,7 +420,12 @@ h1.title {
   height: 1077px;
   left: -504px;
   top: -461px;
-  background: linear-gradient(180deg, rgba(112, 203, 255, 0.43) 27.6%, rgba(238, 48, 255, 0.33) 52.6%, rgba(245, 170, 238, 0.49) 84.37%);
+  background: linear-gradient(
+    180deg,
+    rgba(112, 203, 255, 0.43) 27.6%,
+    rgba(238, 48, 255, 0.33) 52.6%,
+    rgba(245, 170, 238, 0.49) 84.37%
+  );
   filter: blur(150px);
   z-index: -1;
 }
@@ -453,19 +463,19 @@ h1.title {
 }
 #sec2 .inner .txt-box {
   padding-left: 100px;
-  font-family: 'AmericanaStd', 'Abril Fatface', cursive;
+  font-family: "AmericanaStd", "Abril Fatface", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 #sec2 .inner .txt-box h1 {
-  font-family: 'AmericanaStd', 'Marcellus', serif;
+  font-family: "AmericanaStd", "Marcellus", serif;
   font-size: 4em;
   padding: 100px 0 30px 0;
 }
 
 #sec2 .inner .txt-box p {
-  font-family: 'pretendard';
+  font-family: "pretendard";
   line-height: 1.8;
 }
 
@@ -481,7 +491,7 @@ h1.title {
 }
 
 #sec2 .inner .txt-box2 ul li {
-  font-family: 'pretendard', '맑은 고딕', sans-serif;
+  font-family: "pretendard", "맑은 고딕", sans-serif;
   padding-top: 1.5%;
   list-style: circle;
 }
@@ -499,7 +509,12 @@ h1.title {
   left: 1325px;
   top: 310px;
 
-  background: linear-gradient(180deg, rgba(112, 203, 255, 0.43) 27.6%, rgba(238, 48, 255, 0.33) 52.6%, rgba(245, 170, 238, 0.49) 84.37%);
+  background: linear-gradient(
+    180deg,
+    rgba(112, 203, 255, 0.43) 27.6%,
+    rgba(238, 48, 255, 0.33) 52.6%,
+    rgba(245, 170, 238, 0.49) 84.37%
+  );
   filter: blur(150px);
 
   z-index: -1;
@@ -530,14 +545,14 @@ h1.title {
 
 #sec3 #main_intro .main_intro_inner h1 {
   font-size: 2rem;
-  font-family: 'AmericanaStd';
+  font-family: "AmericanaStd";
   margin: 1.563vw 0;
 }
 
 #sec3 #main_intro .main_intro_inner ul li {
   list-style: circle;
   font-size: 1.05em;
-  font-family: 'pretendard', '맑은 고딕', sans-serif;
+  font-family: "pretendard", "맑은 고딕", sans-serif;
   padding: 1.2% 5%;
 }
 
@@ -549,14 +564,14 @@ h1.title {
 /* skill2 섹션 */
 
 #sec4 .can-box h1 {
-  font-family: 'AmericanaStd', 'Pretendard', sans-serif;
+  font-family: "AmericanaStd", "Pretendard", sans-serif;
   text-align: center;
   padding: 30px;
 }
 #sec4 .can-box ul li {
   padding: 10px 0;
   font-size: 1em;
-  font-family: 'Pretendard', 'welcom', '맑은 고딕', sans-serif;
+  font-family: "Pretendard", "welcom", "맑은 고딕", sans-serif;
   list-style-position: outside;
   list-style: circle;
 }
@@ -647,7 +662,7 @@ h1.title {
 /* 컨텍트 섹션 */
 
 #sec5 h1 {
-  font-family: 'AmericanaStd', 'Pretendard', '맑은 고딕', sans-serif;
+  font-family: "AmericanaStd", "Pretendard", "맑은 고딕", sans-serif;
   font-size: 5em;
   text-align: center;
 }
@@ -700,7 +715,7 @@ h1.title {
   bottom: 0;
 }
 #sec5 .ff {
-  font-family: 'AmericanaStd', 'Pretendard', '맑은 고딕', sans-serif;
+  font-family: "AmericanaStd", "Pretendard", "맑은 고딕", sans-serif;
   font-size: 1.2em;
   display: flex;
   justify-content: space-between;

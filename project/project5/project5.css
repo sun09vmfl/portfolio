@@ -1,8 +1,8 @@
 * {
-  font-family: 'Pretendard', 'welcom', '맑은 고딕', sans-serif;
+  font-family: "Pretendard", "welcom", "맑은 고딕", sans-serif;
 }
 .en {
-  font-family: 'AmericanaStd', 'Pretendard', sans-serif;
+  font-family: "AmericanaStd", "Pretendard", sans-serif;
 }
 body header {
   /* Rectangle 33 */
@@ -11,7 +11,13 @@ body header {
   height: 60%;
   left: 0px;
   top: 0px;
-  background: linear-gradient(180deg, #e9a6fa 0%, rgba(255, 173, 246, 0.982848) 29.77%, rgba(164, 225, 251, 0.62) 78.24%, rgba(217, 217, 217, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #e9a6fa 0%,
+    rgba(255, 173, 246, 0.982848) 29.77%,
+    rgba(164, 225, 251, 0.62) 78.24%,
+    rgba(217, 217, 217, 0) 100%
+  );
   z-index: -1;
 }
 
@@ -22,13 +28,18 @@ body header .back {
   right: 50px;
   font-size: 1.2em;
 }
-
+.mbti {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
 body header h1 {
   font-size: 4em;
   display: flex;
   justify-content: center;
   margin-top: 170px;
   margin-bottom: 100px;
+  z-index: 300;
 }
 
 body .main-container {
@@ -58,7 +69,7 @@ body .info1 ul li:nth-child(2):before {
   position: absolute;
   top: 9px;
   left: -10px;
-  content: '';
+  content: "";
   display: block;
   width: 5px;
   height: 27px;
@@ -68,7 +79,7 @@ body .info1 ul li:nth-child(3):before {
   position: absolute;
   top: 9px;
   left: -10px;
-  content: '';
+  content: "";
   display: block;
   width: 5px;
   height: 27px;
@@ -78,7 +89,7 @@ body .info1 ul li:nth-child(4):before {
   position: absolute;
   top: 9px;
   left: -10px;
-  content: '';
+  content: "";
   display: block;
   width: 5px;
   height: 27px;
@@ -203,7 +214,7 @@ body .main-info .title-right .overview {
 }
 .info6 .title-right span {
   display: inline-block;
-  font-family: 'AmericanaStd', 'Pretendard', sans-serif;
+  font-family: "AmericanaStd", "Pretendard", sans-serif;
 }
 
 .info6 .title-right .en:hover span::after {
@@ -211,7 +222,7 @@ body .main-info .title-right .overview {
 }
 
 .info6 .title-right .en span::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 5px;
@@ -260,5 +271,5 @@ footer {
 }
 
 footer a {
-  font-family: 'Pretendard', 'welcom', '맑은 고딕', sans-serif;
+  font-family: "Pretendard", "welcom", "맑은 고딕", sans-serif;
 }
