@@ -259,6 +259,13 @@ body .main-info .title-right .overview {
   padding-bottom: 15px;
   line-height: 1.8;
 }
+/* 프젝 url */
+.url {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
 
 footer {
   width: 100%;

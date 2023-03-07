@@ -12,27 +12,40 @@
     <!-- my style -->
     <link rel="stylesheet" href="../common/minireset.min.css" />
     <link rel="stylesheet" href="../common/fonts/font.css" />
-    <link rel="stylesheet" href="./project2.css" />
+    <link rel="stylesheet" href="./project6.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div class="back en"><a href="../../index.html#Num1">back to portfolio</a></div>
-      <h1 class="en">INTERACTIVE WEBSITE</h1>
+      <div class="back en">
+        <a href="../../index.html#Num1">back to portfolio</a>
+      </div>
+      <h1 class="en">RESPONSIVE WEBSITE</h1>
     </header>
     <div class="main-photo">
-      <img src="./images/daebang-mokup.png" alt="프로젝트 설명 메인" data-aos="flip-up" />
+      <img
+        src="./images/respon-mokup.png"
+        alt="프로젝트 설명 메인"
+        data-aos="flip-up"
+      />
     </div>
 
     <div class="main-container">
       <div class="main-info info1">
         <div class="title-left en" data-aos="fade-right">
           <div class="one"></div>
-          portfolio
+          Project
         </div>
         <ul class="title-right" data-aos="fade-up">
           <li><div class="en overview">OVERVIEW</div></li>
-          <li>신입 개발자로서 나의 색깔을 잘 드러낼 수 있는 포트폴리오 프로젝트입니다.</li>
-          <li>배운 것들을 모두 효율적으로 활용하여 직접 기획하고 디자인 하고 제작하였습니다.</li>
+          <li>개인 프로젝트를 통해 완성한 반응형 웹 페이지입니다.</li>
+          <li>Use tools : HTML5, CSS3, JAVASCRIPTS</li>
           <li>개인 프로젝트 100%</li>
         </ul>
       </div>
@@ -40,64 +53,23 @@
       <div class="main-info info2">
         <div class="title-left" data-aos="fade-right">
           <div class="one"></div>
-          <h1 class="en">Directory</h1>
+          <h1 class="en">INFO</h1>
         </div>
         <ul class="title-right" data-aos="fade-up">
-          <li>포트폴리오 제작에 앞서 가장 중요시한 것은 코드컨벤션과 디렉토리 구조 구상이었습니다.</li>
           <li>
-            팀프로젝트를 통해 코드컨벤션에 대해 중요성과 더불어 디렉토리 구조 파악이<br />
-            홈페이지 제작에 있어서 중요하다는 사실을 이미 몸으로 체득했기 때문입니다.
+            B MAGAZINE 를 반응형으로 모바일, 타블렛, 피씨 버전 세 가지로 나누어
+            제작했습니다. 본래 사이트 자체가 단조로워 인터렉티브한 모습보단
+            효율감 있는 반응형에 집중했습니다. 기존 사이트는 다소 내용에
+            집중하기 어려운 부분이 있었기에 새롭게 디자인을 하면서 화려하지만
+            가독성이 높고 그리드를 통해 한 번에 보기에 편리하게 디자인 했습니다.
           </li>
-          <li><img src="./images/directory.PNG" alt="" /></li>
+          <li>
+            그리드와 플렉스를 통해 레이아웃이 무너지지 않고 추후 업데이트 하는
+            경우에도 편리하게 변경할 수 있습니다.
+          </li>
         </ul>
       </div>
 
-      <div class="main-info info3">
-        <div class="title-left" data-aos="fade-right">
-          <div class="one"></div>
-          <h1 class="en">Cording<br />Convention</h1>
-        </div>
-        <div class="title-right" data-aos="fade-up">
-          <div class="section collapsible">
-            <div class="one"></div>
-            <h2 class="en">Cording Convention</h2>
-            <button type="button" class="collapsible">📁 파일 및 폴더 분류 <span>click</span></button>
-            <div class="content">
-              <ul>
-                <li>1. 파일 및 폴더명은 소문자로 작성</li>
-                <li>2. 메인페이지명은 index.html, 서브페이지명은 project로 작성</li>
-                <li>3. image는 각각의 project 폴더 하위에 새로 생성</li>
-              </ul>
-            </div>
-            <button type="button" class="collapsible">📁 stylesheet / script <span>click</span></button>
-            <div class="content">
-              <ul>
-                <li>1. reset 파일은 minireset.min.css 파일을 기본 사용하되, 필요한 것과 필요없는 것을 첨삭.</li>
-                <li>2. 폰트는 웹폰트와 fonts.css 파일 사용.</li>
-                <li>3. style.css와 js 파일 생성시, html과 동일하게 생성.</li>
-              </ul>
-            </div>
-            <button type="button" class="collapsible">📁 네이밍 <span>click</span></button>
-            <div class="content">
-              <ul>
-                <li>1. html, css의 id 및 class 값은 기본적으로 소문자로 작성하되 두 단어 이상 조합 시 기본 '-' 하이픈 작성. js는 카멜표기법과 '_' 언더바 작성.</li>
-                <li>2. querySelectorAll 사용 시, 변수명은 s를 붙여 인지에 용이하게 함.</li>
-                <li>3. html의 구조는 header, bodt, footer로 구조를 분명하게 함.</li>
-              </ul>
-            </div>
-            <button type="button" class="collapsible">📁 식과 구조 <span>click</span></button>
-            <div class="content">
-              <ul>
-                <li>1. 들여쓰기는 기본 tab을 사용. (tab 사이즈는 2로 통일)</li>
-                <li>2. 키워드, 연산자와 다른 코드 사이에는 가독성을 위해 공백 작성</li>
-                <li>3. 변수 선언 시 const, let 사용.</li>
-                <li>4. 괄호의 위치는 K&R 스타일로 작성.</li>
-                <li>5. 기본적인 작성 방식은 vscode 내 prettier 작성 방식을 따름.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="main-info info5">
         <div class="title-left" data-aos="fade-right">
           <div class="one"></div>
@@ -111,19 +83,16 @@
 
           <ul>
             <li><img src="./images/css3.png" alt="skill1" /></li>
+            <li>Media Query를 통한 반응형 웹 사이트 제작</li>
+            <li>뷰포트 : Pc 1920px / Tablet 1400px / Mobile 768px</li>
+            <li>모바일, 타블렛, 피씨 각기 다르게 구현</li>
+            <li>grid를 주축으로 레이아웃 구성</li>
+            <li>외에도 flex와 position을 이용한 레이아웃 관리</li>
             <li>CSS Animation을 활용한 모션 구현</li>
-            <li>flex, grid, position을 이용한 레이아웃</li>
           </ul>
-
           <ul>
             <li><img src="./images/javascript.png" alt="skill1" /></li>
-            <li>CSS Animation을 활용한 모션 구현</li>
-            <li>flex, grid, position을 이용한 레이아웃</li>
-          </ul>
-
-          <ul>
-            <li><strong>LIBRARY</strong> : fullpage</li>
-            <li><strong>TOOL</strong> :GitHub, Visual Studio Code, Figma, Illustrator, photoshop</li>
+            <li>모바일 시 Toggle Menu bar 구현.</li>
           </ul>
         </div>
       </div>
@@ -131,35 +100,61 @@
       <div class="main-info info6">
         <div class="title-left" data-aos="fade-right">
           <div class="one"></div>
-          <h1 class="en">Page Section</h1>
+          <h1 class="en">Design</h1>
         </div>
         <div class="title-right" data-aos="fade-up">
-          <h2 class="en"><span>1. Work Section</span></h2>
+          <h2 class="en"><span>1. Concept</span></h2>
           <ul>
-            <li>1. 폐쇠적인 풀페이지 특성상 가장 대표적인 슬라이드 플러그인 swiper를 사용하지 않고<br />풀페이지 내부의 슬라이드를 사용.</li>
-            <li>
-              2. 페이지를 꾸미는 데 있어서 다소 아쉬움이 남아 화려함을 주고자 하여 페이지 숫자에<br />
-              `position : absolute` 값을 통해 위치를 지정하여 표현.
-            </li>
+            <li>1. 그리드를 통해 이미지를 한 번에 보여 줄 수 있도록 디자인</li>
+            <li>2. 애니메이션을 통해 지루하지 않은 이벤트 구현</li>
+            <li>3. 반응형을 통해 레이아웃이 무너지지 않도록 디자인</li>
           </ul>
 
-          <h2 class="en"><span>2. About Section</span></h2>
-          <ul>
-            <li>1. 마우스에 의해 움직이는 원을 만들어 마우스 좌표를 인식하고자 했다.</li>
-          </ul>
+          <h2 class="en" data-aos="fade-down"><span>2. Keyword</span></h2>
+          <div class="keyword" data-aos="fade-down">
+            <div data-aos="fade-down">#세련된</div>
+            <div data-aos="fade-down">#화려한</div>
+            <div data-aos="fade-down">#동적인</div>
+          </div>
 
-          <h2 class="en"><span>3. Skill Section</span></h2>
-          <ul>
-            <li>1. grid를 통해 네 가지 스킬 박스를 정렬.</li>
+          <h2 class="en" data-aos="fade-down"><span>3. Color</span></h2>
+          <div class="main-color" data-aos="fade-down">
+            <div class="color-box" data-aos="fade-down">
+              <div class="bar black"></div>
+              <div class="color-info">
+                <p>Black</p>
+                <p>#121212</p>
+              </div>
+            </div>
+            <div class="color-box" data-aos="fade-down">
+              <div class="bar white"></div>
+              <div class="color-info">
+                <p>White</p>
+                <p>#FFF</p>
+              </div>
+            </div>
+            <div class="color-box" data-aos="fade-down">
+              <div class="bar gray"></div>
+              <div class="color-info">
+                <p>Gray</p>
+                <p>#D3D3D3</p>
+              </div>
+            </div>
+          </div>
+          <h2 class="en"><span>4. Fonts</span></h2>
+          <ul class="fonts" data-aos="fade-down">
             <li>
-              2. flex를 통해 정렬 후 Masonry 레이아웃으로 위치하기 위해 네 개의 박스의 부모에<br />`align-items: flex-start;` 를 적용 시킨 뒤 첫 번째, 세 번째 박스에만<br />
-              `align-self: flex-end;` 를 적용시켜 박스를 위치시켰다
+              Pretendard
+              <p>Regulr</p>
             </li>
-            <li>3. transform과 transition을 통해서 가장 우측의 박스부터 하나씩 나오도록 구성</li>
-          </ul>
-          <h2 class="en"><span>4. Contact Section</span></h2>
-          <ul>
-            <li>1. 명함이 뒤집히는 모션을 표현하기 위해 자바스크립트의 addEventListener, classlist사용</li>
+            <li>
+              Playfair Display
+              <p>Regulr</p>
+            </li>
+            <li>
+              Georgia
+              <p>Regulr</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -167,31 +162,33 @@
       <div class="main-info info7">
         <div class="title-left" data-aos="fade-right">
           <div class="one"></div>
-          <h1 class="en">Solution</h1>
+          <h1 class="en">
+            Design <br />
+            Solution
+          </h1>
         </div>
         <div class="title-right" data-aos="fade-up">
           <div data-aos="fade-up">
-            <h1><span>Fullpage</span>는 왜 이렇게 폐쇄적일까?</h1>
-            <p>fullpage는 폐쇄적인 특성으로 타 플러그인과 호환이 되지 않는 경우가 많음.</p>
+            <h1><span>MediaQuery</span>의 마법</h1>
             <p>
-              스크롤 내리면 발생하는 이벤트 역시 대표 라이브러리 AOS가 아닌 <br />
-              css와 transform: translateX(-50px); 를 통해 구현.
+              모바일부터 타블렛, 피씨까지 모두 아우르는 미디어쿼리는 처음 구상만
+              잘하면 정말로 편리했다.
+            </p>
+            <p>
+              하지만 처음엔 그리드가 아닌 플렉스를 통해 구상을 했던 것이 실패의
+              요인이었다. 추후 다시 디자인을 해 그리드로 충분히 만들 수 있는
+              레이아웃을 구성했고 미디어쿼리를 통해 반응형 웹을 만들었다.
             </p>
           </div>
           <div data-aos="fade-up">
-            <h1><span>Toggle</span>이 왜 이렇게 넘치지?</h1>
-            <p>toogle 슬라이드 작업 중 안보여야할 영역이 보이는 문제 발생.</p>
+            <h1>
+              <span>Grid</span>를 썼는데 <span>row/colums</span>가 적용이 안돼요
+            </h1>
+            <p>Grid 를 적용하였지만 이미지들이 정렬이 안되는 현상 발생.</p>
             <p>
-              전체를 감싸는 부모를 형성하고 그안의 자식을 부모의 값보다 넘치게 주고<br />
-              넘치는 값을 overflow: hidden의 값으로 문제 해결.
-            </p>
-          </div>
-          <div data-aos="fade-up">
-            <h1><span>Video</span>가 삽입된 background는 이렇게 관리가 어려운 거였어?</h1>
-            <p>
-              main을 꽉차게 한 비디오 앞에 수많은 png 파일을 배치하며 오류가 자주 생김.<br />
-              만들었던 video를 100%로 하면 사이즈가 작아지고, cover를 먹지 않아 페이지를 채우지 못함. <br />
-              object-fit: cover; overflow: hidden; 값으로 문제 해결 <br />
+              Grid > box > img 순 으로 Grid는 하위 선택자 1명 한테만 적용이 되어
+              이미지들이 모두 틀어짐. class에 직접 row/colums값을 적용하여
+              이미지를 재배열하여 해결
             </p>
           </div>
         </div>
@@ -204,30 +201,35 @@
         </div>
         <div class="title-right" data-aos="fade-up">
           <div data-aos="fade-up">
-            <p>처음으로 기획부터 디자인, 코딩까지 마무리한 첫 작업이었습니다.</p>
             <p>
-              할 줄 아는 것, 자신 있는 것, 다소 어려워하는 것을 모두 직면으로 마주하며<br />
-              자신의 부족함을 깨우칠 수 있었던 귀중한 경험이 되었다고 생각합니다.
+              퍼블리싱을 할때 mobile, tablet, pc 에서 고려해야할 크기가 다 달라
+              적용시키기 어려웠습니다. gird를 통해 content를 정렬 시킨 후 가변
+              단위를 이용해 유연한 반응형 웹사이트를 만들었습니다.
             </p>
             <p>
-              이 작업을 진행하면서 많은 부분에서 고민을 했고, 모르는 부분들을 구글링을 통해<br />
-              문제를 해결해 나갔습니다. 아직 부족한 점도 많지만, 이번 프로젝트를 진행하면서 <br />
-              어떠한 방향으로 더 노력해나가야 하는지 알게 되었습니다.
+              반응형은 코딩의 본질과 맞닿아 있다는 생각을 했습니다. 처음부터
+              편리성을 위해 조금 더 생각하고 노력하면 편리하게 웹을 사용할 수
+              있다는 점에서 그렇습니다.
             </p>
             <p>
-              노력은 배신하지 않고, 배움은 제게 있어 변치않는 자산이 될 것입니다.<br />
-              앞으로도 꾸준히 공부하며 발전해야겠다고 생각했습니다.
+              앞으로도 기본적으로 반응형으로 웹 제작을 하는 것이 바람직하다고
+              느꼈습니다.
             </p>
           </div>
         </div>
       </div>
     </div>
+    <div class="url">
+      <a href="https://sun09vmfl.github.io/web_res/">View Site</a>
+    </div>
     <footer>
-      <div class="prev"><a href="../../index.html">포트폴리오로 돌아가기</a></div>
+      <div class="prev">
+        <a href="../../index.html">포트폴리오로 돌아가기</a>
+      </div>
       <div class="next"><a href="#">다음 작업물 확인하기</a></div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./project2.js"></script>
+    <script src="./project6.js"></script>
   </body>
 </html>

@@ -239,6 +239,10 @@ h1.title {
   width: 55%;
 }
 
+.slide .pj6-1 .project h1 {
+  font-size: 20px;
+}
+
 .slide .slide_inner .pj img {
   background-color: #fff;
   border-radius: 20px;
